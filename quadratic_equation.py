@@ -11,3 +11,12 @@ def get_roots(a, b, c):
         return root1, None
     elif discriminant < 0:
         return None, None
+
+
+print("Введите коэффициент A")
+a = int(input())
+print("Введите коэффициент B")
+b = int(input())
+print("Введите коэффициент C")
+c = int(input())
+print(get_roots(a, b, c))
