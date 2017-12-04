@@ -13,10 +13,13 @@ def get_roots(a, b, c):
         return None, None
 
 
-print("Введите коэффициент A")
-a = int(input())
-print("Введите коэффициент B")
-b = int(input())
-print("Введите коэффициент C")
-c = int(input())
-print(get_roots(a, b, c))
+if __name__ == "__main__":
+    print("Введите коэффициент A")
+    a = int(input())
+
+    print("Введите коэффициент B")
+    b = int(input())
+    print("Введите коэффициент C")
+
+    c = int(input())
+    print(get_roots(a, b, c))
